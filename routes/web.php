@@ -26,3 +26,8 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/tickets', [\App\Http\Controllers\TicketController::class, 'index']);
+
+Route::get('/rep', [\App\Http\Controllers\RepController::class, 'index']);
+
+
+Route::get('/clients', [\App\Http\Controllers\ClientController::class, 'index']);

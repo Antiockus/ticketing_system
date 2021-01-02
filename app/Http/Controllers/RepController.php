@@ -15,6 +15,7 @@ class RepController extends Controller
     public function index()
     {
         //
+        return view('reps.index');
     }
 
     /**
